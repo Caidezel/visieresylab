@@ -1,21 +1,23 @@
 # Site settings
 title: Ylab, bilan de notre opération visières
-description: retrouve le bilan de la participation du Ylab au mouvement maker, visieres solidaires en AURA.
+description: "Retrouvez le bilan de la participation du Ylab : le fablab de Lyon Ynov Campus, au mouvement maker : visieres solidaires en AURA."
 favicon: /assets/img/logoylab.JPG
 baseurl:
 url: https://visieres.ylab.fr
 rss_url: /pages/atom.xml
-google_analytics:
+google_analytics: UA-130161365-2
+
+# Social
+twitter-ynovlyon : ynovlyon
 
 # Build settings
 markdown: kramdown
-
 exclude: [vendor]
 
 # Author settings
 author:
-  name: Ylab
-  title: Fablab de Lyon Ynov Campus
+  name: Ylab, bilan de notre opération visières
+  title: "Retrouvez le bilan de la participation du Ylab : le fablab de Lyon Ynov Campus, au mouvement maker : visieres solidaires en AURA."
   address: Lyon, France
   email: contact@ylab.fr
   link: http://ylab.fr
