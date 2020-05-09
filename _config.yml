@@ -1,0 +1,83 @@
+# Site settings
+title: Ylab, bilan de notre opération visières
+description: retrouve le bilan de la participation du Ylab au mouvement maker, visieres solidaires en AURA.
+favicon: /assets/img/logoylab.JPG
+baseurl:
+url: https://visieres.ylab.fr
+rss_url: /pages/atom.xml
+google_analytics:
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
+
+# Author settings
+author:
+  name: Ylab
+  title: Fablab de Lyon Ynov Campus
+  address: Lyon, France
+  email: contact@ylab.fr
+  link: http://ylab.fr
+  github: 
+  linkedin: 
+  twitter: 
+  gavatar: /resumecard/assets/img/avatar.JPG
+  stackoverflow:
+  workHistory:
+    - work1:
+      company: XXX Ltd
+      location: Auckland, New Zealand
+      title: Java Developer
+      started: 2014
+      duration: (2014 - Present)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+    - work2:
+      company: XXX Ltd
+      location: Shanghai, China
+      title: Java Developer
+      started: 2012
+      duration: (2012 - 2014)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+    - work3:
+      company: XXX Ltd
+      location: Shanghai, China
+      title: Java Developer
+      started: 2009
+      duration: (2009 - 2012)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+  educationHistory:
+    - education1:
+      organization: XXXXXX University
+      location: Shenyang, China
+      degree: Bachelor
+      major: Software Engineering
+      started: 2005
+      duration: (2005 - 2009)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+  languages:
+    - language1:
+      name: Chinese
+      proficiency: Native
+    - language2:
+      name: English
+      proficiency: Professional
+    - language3:
+      name: Japanese
+      proficiency: Limit
+  programmingSkills:
+    - skill1:
+      name: PLA
+      percentage: 100%
+    - skill2:
+      name: PETG
+      percentage: 90%
+    - skill3:
+      name: S2
+      percentage: 0.3%
+    - skill4:
+      name: S2B
+      percentage: 5.3%
+    - skill5:
+      name: S3
+      percentage: 94.4%
