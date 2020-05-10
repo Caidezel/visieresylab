@@ -488,17 +488,21 @@ hr {
     float: right;
 }
 
-.ribbon{
-  position: absolute; 
-  top: 42px;
-  width: 200px;
-  padding: 1px 0;
-  background: #000;
-  color: #eee;
+.badge-invert {
+    color: #474747;
+    background:#fff;
+}
 
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+.ribbon {
+    position: absolute;
+    top: 42px;
+    width: 200px;
+    padding: 1px 0;
+    background: #000;
+    color: #eee;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .ribbon.left{

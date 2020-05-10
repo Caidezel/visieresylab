@@ -5,3 +5,7 @@ resumecard.iml
 /*.iml
 Gemfile.lock
 .jekyll-cache
+/.vs/visieresylab/config/applicationhost.config
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
