@@ -44,6 +44,10 @@ a {
     background-color: #444444;
 }
 
+.btn {
+    background: #3c547d;
+}
+
 .footer {
     padding: 20px 0;
     text-align: center;
@@ -646,8 +650,11 @@ height: 100%;
 
 .numbers {
     text-align: center;
+
 }
 
 .numbers h3 {
     font-size: 5em;
+    color: #3c547d;
+    font-weight: 900;
 }
