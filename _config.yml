@@ -1,0 +1,34 @@
+# Site settings
+title: 'Ylab : bilan de notre opération "visières"'
+description: 'Retrouvez le bilan de la participation du Ylab : le fablab de Lyon Ynov Campus, au mouvement regroupant les makers dans le cadre de la fabrication de visières de protection contre le COVID-19, à destination des personnels soignants : visieres solidaires en Rhône-Alpes.'
+favicon: /assets/img/logoylab.png
+baseurl:
+url: https://visieres.ylab.fr
+rss_url: /pages/atom.xml
+google_analytics: UA-130161365-2
+
+# Social
+twitter-ynovlyon : ynovlyon
+
+# Build settings
+markdown: kramdown
+exclude: [vendor]
+
+#Links
+visieressolidaires: 'https://visieresolidaire-rhonealpes.fr/'
+ynovmap : 'https://goo.gl/maps/iGqJLXD8BjAyZ49R7'
+ynovlyon : 'https://ynov-lyon.com/'
+lyoncotecroixrousse : 'https://lyon-cotecroixrousse.org/'
+coursierssolidaires : 'https://www.facebook.com/lescoursierssolidaireslyon/'
+rezo1901 : 'https://rezo1901.org/accueil/presentation/'
+poussieresrues : 'https://www.poussieredesrues.fr/'
+warningsourcevisieres : 'https://visieresolidaire-rhonealpes.fr/besoin-de-visieres/'
+supportvisieressolidaire : 'https://visieresolidaire-rhonealpes.fr/soutenez-nous/'
+
+# Author settings
+author:
+  title: 'Retrouvez le bilan de la participation du Ylab : le fablab de Lyon Ynov Campus, au mouvement regroupant les makers dans le cadre de la fabrication de visières de protection contre le COVID-19, à destination des personnels soignants : visieres solidaires en Rhône-Alpes.'
+  address: 'Lyon, France'
+  email: 'contact@ylab.fr'
+  link: http://ylab.fr
+  

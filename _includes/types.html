@@ -1,0 +1,17 @@
+<!-- Type -->
+            {% if site.data.visieres %}
+                <div class="deviter"></div>
+                <h3 class="title with-icon"><i class="fas fa-list-ol cat-title"></i>Types de visières fabriquées</h3>
+                <div class="grid-block">
+                    {% for visieres in site.data.visieres %}
+                    <ul class="list-unstyled list-strip">
+                        <li>
+                            <i class="fas fa-chevron-right"></i> <span class="badge badge-invert badge-right-float">{{ visieres.numbers }}</span>{{ visieres.name }}
+                        </li>
+                        {% endfor %}
+
+                    </ul>
+                    <p style="text-align: center;">Voir les informations des modèles utilisés sur le site<br /> <a href="https://visieresolidaire-rhonealpes.fr/les-modeles/" rel="nofollow norefferer" target="_blank" title="Voir l'annuaire des modèles sur le site visieresolidaire-rhonealpes.fr" class="btn btn-primary center-block"><i class="far fa-hand-point-right"></i> visieresolidaire-rhonealpes.fr</a></p>
+                </div>
+            {% endif %}
+<!-- End Type -->
