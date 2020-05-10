@@ -1,6 +1,6 @@
 # Site settings
 title: 'Ylab : bilan de notre opération "visières"'
-description: 'Retrouvez le bilan de la participation du Ylab : le fablab de Lyon Ynov Campus, au mouvement regroupant les makers dans le cadre de la fabrication de visières de protection contre le COVID-19, à destination des personnels soignants : visieres solidaires en AURA.'
+description: 'Retrouvez le bilan de la participation du Ylab : le fablab de Lyon Ynov Campus, au mouvement regroupant les makers dans le cadre de la fabrication de visières de protection contre le COVID-19, à destination des personnels soignants : visieres solidaires en Rhône-Alpes.'
 favicon: /assets/img/logoylab.png
 baseurl:
 url: https://visieres.ylab.fr
@@ -27,13 +27,8 @@ supportvisieressolidaire : 'https://visieresolidaire-rhonealpes.fr/soutenez-nous
 
 # Author settings
 author:
-  title: "Retrouvez le bilan de la participation du Ylab, le fablab de Lyon Ynov Campus, au mouvement maker : visieres solidaires en AURA."
-  address: Lyon, France
-  email: contact@ylab.fr
+  title: 'Retrouvez le bilan de la participation du Ylab : le fablab de Lyon Ynov Campus, au mouvement regroupant les makers dans le cadre de la fabrication de visières de protection contre le COVID-19, à destination des personnels soignants : visieres solidaires en Rhône-Alpes.'
+  address: 'Lyon, France'
+  email: 'contact@ylab.fr'
   link: http://ylab.fr
-  github: 
-  linkedin: 
-  twitter: 
-  gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
   
