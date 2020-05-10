@@ -1,7 +1,7 @@
 # Site settings
-title: Ylab, bilan de notre opération visières
-description: "Retrouvez le bilan de la participation du Ylab : le fablab de Lyon Ynov Campus, au mouvement maker : visieres solidaires en AURA."
-favicon: /assets/img/logoylab.JPG
+title: 'Ylab : bilan de notre opération "visières"'
+description: 'Retrouvez le bilan de la participation du Ylab, le fablab de Lyon Ynov Campus, au mouvement regroupant les makers dans le cadre de la fabrication de visières à destination des personnels soignants : visieres solidaires en AURA.'
+favicon: /assets/img/logoylab.png
 baseurl:
 url: https://visieres.ylab.fr
 rss_url: /pages/atom.xml
@@ -14,10 +14,20 @@ twitter-ynovlyon : ynovlyon
 markdown: kramdown
 exclude: [vendor]
 
+#Links
+visieressolidaires: 'https://visieresolidaire-rhonealpes.fr/'
+ynovmap : 'https://goo.gl/maps/iGqJLXD8BjAyZ49R7'
+ynovlyon : 'https://ynov-lyon.com/'
+lyoncotecroixrousse : 'https://lyon-cotecroixrousse.org/'
+coursierssolidaires : 'https://www.facebook.com/lescoursierssolidaireslyon/'
+rezo1901 : 'https://rezo1901.org/accueil/presentation/'
+poussieresrues : 'https://www.poussieredesrues.fr/'
+warningsourcevisieres : 'https://visieresolidaire-rhonealpes.fr/besoin-de-visieres/'
+supportvisieressolidaire : 'https://visieresolidaire-rhonealpes.fr/soutenez-nous/'
+
 # Author settings
 author:
-  name: Ylab, bilan de notre opération visières
-  title: "Retrouvez le bilan de la participation du Ylab : le fablab de Lyon Ynov Campus, au mouvement maker : visieres solidaires en AURA."
+  title: "Retrouvez le bilan de la participation du Ylab, le fablab de Lyon Ynov Campus, au mouvement maker : visieres solidaires en AURA."
   address: Lyon, France
   email: contact@ylab.fr
   link: http://ylab.fr
@@ -26,60 +36,4 @@ author:
   twitter: 
   gavatar: /resumecard/assets/img/avatar.JPG
   stackoverflow:
-  workHistory:
-    - work1:
-      company: XXX Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work2:
-      company: XXX Ltd
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: XXX Ltd
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  educationHistory:
-    - education1:
-      organization: XXXXXX University
-      location: Shenyang, China
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  languages:
-    - language1:
-      name: Chinese
-      proficiency: Native
-    - language2:
-      name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
-  programmingSkills:
-    - skill1:
-      name: PLA
-      percentage: 100%
-    - skill2:
-      name: PETG
-      percentage: 90%
-    - skill3:
-      name: S2
-      percentage: 0.3%
-    - skill4:
-      name: S2B
-      percentage: 5.3%
-    - skill5:
-      name: S3
-      percentage: 94.4%
+  
