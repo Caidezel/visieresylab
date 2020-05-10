@@ -1,21 +1,18 @@
 <div class="header">
     <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="col-sm-4">
-                <img src="{{ site.favicon | prepend: site.baseurl }}" title="Avatar" alt="My Avatar">
-                <h4>{{ site.author.name }}</h4>
-                <p>{{ site.author.title }}</p>
-                <p class="muted">{{ site.author.address }}</p>
+        <div class="row-fluid vertical-align">
+            <div class="col-xs-3 col-sm-2">
+                <img src="{{ site.favicon | prepend: site.baseurl }}" title="Logo" alt="Le logo de Ylab.fr">
+            </div>
+            <div class="col-xs-9 col-sm-7">
+
+                <h1>{{ site.title }}</h1>
+                <p>Retrouvez le bilan de la participation du Ylab, le fablab de <a href="{{ site.ynovlyon }}" rel="nofollow norefferer" target="_blank" title="Site de Lyon Ynov Campus">Lyon Ynov Campus</a>, au mouvement regroupant les makers dans le cadre de la fabrication de visières à destination des personnels soignants : <a href="{{ site.visieressolidaires }}" rel="nofollow norefferer" target="_blank" title="Site des visieres solidaires en AURA">visières solidaires en AURA.</a></p>
                 <div class="clearfix"></div>
             </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
-                <p><i class="fa fa-envelope-o fa-fw"></i> {{ site.author.email }} </p>
-                <p><i class="fa fa-github fa-fw"></i><a href="//github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
-                <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="//linkedin.com/in/{{ site.author.linkedin }}" target="_blank"> linkedin.com/in/{{ site.author.linkedin }} </a></p>
-                <p><i class="fa fa-twitter fa-fw"></i> <a href="//twitter.com/{{ site.author.twitter }}" target="_blank">  @{{ site.author.twitter }} </a></p>
-            </div>
-            <div class="col-sm-4 visible-md-block visible-lg-block">
-                <a href="#" class="btn btn-dark"><i class="icon-file icon-white"></i> Download.pdf </a>
+            <div class="col-sm-3 visible-md-block visible-lg-block visible-sm-block" style="text-align:right;">
+                <p><a href="mailto:{{ site.author.email }}" > {{ site.author.email }} </a><i class="fa fa-envelope-o fa-fw"></i></p>
+                <p class="muted"><a href="{{ site.ynovmap }}" rel="nofollow norefferer" target="_blank" title="Voir Lyon Ynov Campus et le Ylab sur la carte">{{ site.author.address }}</a> <i class="fas fa-map-marker-alt"></i></p>
             </div>
         </div>
     </div>

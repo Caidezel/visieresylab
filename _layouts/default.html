@@ -9,10 +9,11 @@
 
     <div class="page-content">
       <div class="wrapper">
-        {{ content }}
+              {% include content.html %}
       </div>
     </div>
 
+    {% include partner.html %}
     {% include footer.html %}
 	{% include googleanalytics.html %}
   </body>

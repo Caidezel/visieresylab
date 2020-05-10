@@ -1,0 +1,21 @@
+<!-- Matieres -->
+                <div class="deviter"></div>
+                <h3 class="title with-icon"><i class="fas fa-cubes cat-title"></i> Matières consommées</h3>
+                {% if site.data.matieres %}
+                <div class="grid-block">
+                    <ul class="list-unstyled list-skills">
+                        {% for matieres in site.data.matieres %}
+                            <li>
+                                    <span class="caption-skill">{{ matieres.name }}</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: {{ matieres.percentage }}">
+                                            <span>{{ matieres.percentage }} </span>
+                                        </div>
+                                    </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+<!-- End Matieres -->
